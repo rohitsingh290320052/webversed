@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#head01{
+    display: flex;
+
+}
+header div h1{
+    margin-top: 0.5rem;
+    color:bisque;
+    margin-left: 0.5rem;
+}
+header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+
+}
+#head02 a{
+    text-emphasis: none;
+    color:crimson;
+    margin-top: 3rem;
+
+}
+#head03 a{
+    text-decoration: none;
+    color:black;
+    border: solid 2px brown;
+    padding: 6px;
+    border-radius: 6px 6px 6px;
+
+}
+#head02 a:hover{
+    color:hotpink;
+}
+#head03 a:hover{
+    background-color: seagreen;
+    transition: 1s;
+    
+
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-left: 9.5rem;
+    margin-right:9.5rem;
+    margin-top: 5rem;
+}
+.images{
+    border: solid 2px beige;
+    border-radius: 6px 6px 6px;
+
+}
